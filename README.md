@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## React Blog é um projeto web desenvovido com SASS para o frontend e GRAPHQL
 
 In the project directory, you can run:
 
