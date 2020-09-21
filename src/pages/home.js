@@ -3,7 +3,7 @@ import React from "react";
 // import { Container } from './styles';
 
 function Home() {
-  return <div>Home</div>;
+  return <section className="container home">Home</section>;
 }
 
 export default Home;
