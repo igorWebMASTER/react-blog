@@ -1,29 +1,29 @@
-import React from "react";
-import Navigation from "./components/navigation";
+import React from 'react';
+import Navigation from './components/common/navigation';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
-} from "react-router-dom";
+} from 'react-router-dom';
 
-import PageRenderer from "./page-renderer";
+import PageRenderer from './page-renderer';
 
 function App() {
   const user = {
-    firstName: "Igor",
-    lastName: "Ribeiro",
-    user: "coderswhats",
+    firstName: 'Igor',
+    lastName: 'Ribeiro',
+    user: 'coderswhats',
   };
 
   return (
     <Router>
-      <div className="App">
+      <div className='App'>
         <Navigation user={user} />
         <Switch>
-          <Route path="/:page" component={PageRenderer} />
-          <Route path="/" render={() => <Redirect to="/home" />} />
+          <Route path='/:page' component={PageRenderer} />
+          <Route path='/' render={() => <Redirect to='/home' />} />
           <Route component={() => 404} />
         </Switch>
       </div>

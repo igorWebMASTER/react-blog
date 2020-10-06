@@ -1,5 +1,5 @@
-import React from "react";
-import { useRouteMatch, generatePath } from "react-router";
+import React from 'react';
+import { useRouteMatch, generatePath } from 'react-router';
 
 const generatePage = (page) => {
   const component = () => require(`./pages/${page}.js`).default;
