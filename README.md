@@ -1,4 +1,4 @@
-## React Blog é um projeto web desenvovido com SASS para o frontend e GRAPHQL
+## React Blog é um projeto web desenvovido com SASS para o frontend e GraphQL
 
 In the project directory, you can run:
 
